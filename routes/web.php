@@ -14,5 +14,5 @@ use App\Http\Controllers\AjaxController;
 */
 
  
-Route::get('/message', [AjaxController::class, 'index']);
+Route::get('/', [AjaxController::class, 'index']);
 Route::post('/cats', [AjaxController::class,'data']);
